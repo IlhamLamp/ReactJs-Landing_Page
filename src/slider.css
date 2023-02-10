@@ -1,0 +1,21 @@
+.swiper-wrapper {
+    min-height: 400px;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    width: 100%; 
+  }
+  .swiper-pagination-bullet {
+    background-color: white;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #f063b8 !important;
+  }
+
+  @media screen and (max-width: 600px) {
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+      width: 50%; 
+    } 
+  }
